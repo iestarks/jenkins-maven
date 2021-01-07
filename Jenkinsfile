@@ -19,7 +19,7 @@ pipeline {
         }   
 
 
-// Deployment into the Maven Repository
+// Deployment into the Maven Repository for testing
 
          stage  ( 'Deployment Stage') {
            steps {
