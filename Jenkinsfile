@@ -7,7 +7,7 @@ pipeline {
         stage ('Compile  Stage') {
             steps {
             withMaven(maven : 'maven_3.6.3') {
-                sh 'mvn clean compile'
+                sh 'mvn compile'
                    }
             }
         } 
@@ -26,7 +26,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
             withMaven(maven : 'maven_3.6.3') {
-                sh 'mvn deploy'
+                sh 'mvn clean deploy'
                    }
             }
         } 
