@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myJenkins-Github-MavenRepo.read</id>
-            <url>https://github.com/iestarks/jenkins-maven.git</url>
+            <url>https://mymavenrepo.com/repo/XHGJ5HhME9u9cskPEugA/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myJenkins-Github-MavenRepo.write</id>
-            <url>https://github.com/iestarks/jenkins-maven.git</url>
+            <url>https://mymavenrepo.com/repo/akNkLzzevkFVfa0lnnAc/</url>
         </repository>
     </distributionManagement>
 
