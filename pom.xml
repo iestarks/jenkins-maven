@@ -58,8 +58,6 @@
     <repositories>
         <repository>
             <id>Main repo</id>
-            <username>myMavenRepo</username>
-            <password>Agk9zwaV7SdP_8V</password>
             <url>https://mymavenrepo.com/repo/XHGJ5HhME9u9cskPEugA/</url>
         </repository>
     </repositories>
@@ -67,8 +65,6 @@
     <distributionManagement>
         <repository>
             <id>Main repo</id>
-            <username>myMavenRepo</username>
-            <password>Agk9zwaV7SdP_8V</password>
             <url>https://mymavenrepo.com/repo/akNkLzzevkFVfa0lnnAc/</url>
         </repository>
     </distributionManagement>
